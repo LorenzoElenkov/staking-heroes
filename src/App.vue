@@ -1,7 +1,7 @@
 <template>
   <div class="main-div">
     <div class="pt-10 px-10 text-center w-full">
-      <p class="desktop:text-5xl lg:text-6xl md:text-5xl sm:text-4xl pt-3 px-1 mt-1 text-white">Heroes of Olympus</p>
+      <img class="desktop:w-1/4 mobile:w-1 mx-auto my-0" src="./assets/123.png" /> 
     </div>
 
     <div class="p-10 desktop:mt-10">

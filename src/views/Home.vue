@@ -1,10 +1,7 @@
 <template>
   <div class="main-div w-full">
-    <div class="justify-self-center my-0 mx-auto flex flex-col flex-wrap">
-      <p class="text-4xl lg:text-4xl md:text-4xl sm:text-3xl">Welcome Hero!</p>
-    </div>
     <div class="text-center w-full">
-      <p class="mt-5 text-2xl sm:text-lg">The Gods of Olympus have been waiting for your arrival!</p>
+      <p class="text-2xl sm:text-lg">The Gods of Olympus have been waiting for your arrival!</p>
       <p class="text-2xl mb-10 sm:text-lg">Lock your Hero (NFT) and the Gods will award you tokens!</p>
     </div>
     <router-link to="farmer" class="flex-2 self-center block desktop:hidden mb-10 w-full">
