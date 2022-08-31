@@ -52,6 +52,19 @@
         </button>
       </Vault>
     </div>
+    <div v-else>
+      <div class="w-full text-center mb-5 text-white desktop:text-2xl sm:text-xl md:text-2xl lg:text-2xl">
+        You need to authorize our staking program to create a staking account
+      </div>
+      <div class="w-full text-center">
+        <button class="bg-blue-500 text-2xl px-12 py-2 border-2 border-solid border-white text-white" @click="initFarmer">
+          Create account
+        </button>
+      </div>
+      <div class="w-full text-center mb-5 text-white desktop:text-xl sm:text-xl md:text-2xl lg:text-2xl mt-5">
+        This action is neccessary only once and costs <span class="text-green-500 text-3xl">0.01808 SOL</span> which is paid to the blockchain - not to the Creators of Heroes of Olympus!
+      </div>
+    </div>
   </div>
 </template>
 

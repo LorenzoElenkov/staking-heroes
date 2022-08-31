@@ -4,7 +4,7 @@
       <p v-if="farmerAcc.gemsStaked > 0" class="text-center text-6xl">
         {{ farmerAcc.gemsStaked }}
       </p>
-      <p class="inline-block">
+      <p class="inline-block text-center">
         {{ farmerAcc.gemsStaked > 0 ? 'Heroes STAKED' : 'No Heroes STAKED' }}
       </p>
     </div>
